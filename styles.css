@@ -1,0 +1,193 @@
+body {
+    background-color: #f3f5fc;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.section {
+    margin: 2%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+
+
+
+
+
+.input {
+
+    flex: 60;
+
+    margin-top: 200px;
+    margin-left: 200px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
+    height: 90vh;
+
+    margin-top: 30px;
+
+    position: relative;
+}
+
+.salida {
+
+    flex: 30;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    min-width: 368px;
+
+    position: relative;
+
+}
+
+.salida img {
+    margin-top: 50%;
+}
+
+
+
+.salida h2,
+h4 {
+
+    width: 80%;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+}
+
+
+.salida button {
+    width: 80%;
+    height: 67px;
+    border-radius: 24px;
+
+    background-color: #D8DFE8;
+    font-size: 16px;
+    color: #0A3871;
+
+
+    position: absolute;
+    bottom: 30px;
+    /* Ajusta la distancia deseada desde el borde inferior */
+}
+
+
+
+
+
+
+.input textarea {
+
+  
+    position: absolute;
+    bottom: 150px;
+    /* Ajusta la distancia deseada desde el borde inferior */
+
+    background-color: transparent;
+    width: 100%;
+    height: 75%;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 32px;
+
+    color: rgba(10, 56, 113, 255);
+    border: none;
+    resize: none;
+    outline: none;
+
+
+
+}
+
+.textArea::placeholder {
+    color: rgba(10, 56, 113, 255);
+}
+
+.input h3 {
+    display: flex;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 12px;
+
+
+    opacity: 80%;
+
+
+    color: #495057;
+
+    position: absolute;
+    bottom: 100px;
+    /* Ajusta la distancia deseada desde el borde inferior */
+}
+
+.button-container {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    /* Ajusta la distancia deseada desde el borde inferior */
+}
+
+.button-container button {
+    margin-right: 30px;
+}
+
+.encriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    color-style: Dark;
+    background-color: #0A3871;
+    font-size: 16px;
+    color: white;
+}
+
+.desencriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+
+    background-color: #D8DFE8;
+    font-size: 16px;
+    color: #0A3871;
+}
+
+/*
+
+.titulo {
+    max-height: 100px;  Ajusta el máximo de altura deseado 
+    overflow-y: auto; /* Habilita la barra de desplazamiento vertical si el texto desborda 
+    overflow-wrap: break-word; /* Ajusta el texto automáticamente al siguiente renglón en caso de desbordamiento 
+  }
+  */
